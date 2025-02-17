@@ -1,36 +1,74 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🎮 Tier List Maker
 
-## Getting Started
+Uma aplicação web moderna para criar e organizar tier lists de forma intuitiva e elegante.
 
-First, run the development server:
+## ✨ Funcionalidades
 
+- 🖼️ Upload de imagens por arquivo ou ctrl+v
+- 🎯 Sistema de drag and drop intuitivo
+- 📝 Adicionar legendas às imagens
+- 🎨 Design responsivo e moderno
+- 🔄 Redimensionamento de imagens
+- 🗑️ Gerenciamento fácil de itens
+- 🌙 Tema dark mode
+- 🔍 Preview de imagens em tamanho maior
+
+## 🚀 Tecnologias
+
+- [Next.js 14](https://nextjs.org/)
+- [React](https://reactjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [@hello-pangea/dnd](https://github.com/hello-pangea/dnd)
+
+## 🛠️ Instalação
+
+1. Clone o repositório:
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/seu-usuario/tierlist.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Instale as dependências:
+```bash
+cd tierlist
+npm install
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+3. Inicie o servidor de desenvolvimento:
+```bash
+npm run dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+4. Acesse [http://localhost:3000](http://localhost:3000) no seu navegador.
 
-## Learn More
+## 💡 Como Usar
 
-To learn more about Next.js, take a look at the following resources:
+1. **Upload de Imagens**
+   - Clique no botão "Add Image" para fazer upload
+   - Ou use Ctrl+V para colar imagens da área de transferência
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+2. **Organizar Items**
+   - Arraste as imagens entre as diferentes tiers
+   - Use o botão de redimensionamento para ajustar o tamanho
+   - Adicione legendas clicando nas imagens
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+3. **Gerenciar Tiers**
+   - As tiers vão de S+ até D
+   - Arraste items de volta para a área "Unranked"
 
-## Deploy on Vercel
+## 🤝 Contribuindo
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Contribuições são sempre bem-vindas! Sinta-se à vontade para:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- 🐛 Reportar bugs
+- 💡 Sugerir novas funcionalidades
+- 📝 Criar pull requests
+
+## 📝 Licença
+
+Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+
+
+---
+
+⭐️ Se este projeto te ajudou, considere dar uma estrela!
